@@ -1,0 +1,42 @@
+body{
+
+
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 19%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);}
+
+.title{
+	text-align: center;
+		margin: 5% 10%;
+}
+h1{
+	font-family: monospace;
+	font-size: 3vw;
+	text-decoration: blink;
+	text-transform: uppercase;
+}
+.form{
+	text-align: center;
+	margin: 7% 10%;
+}
+input{margin: 1% 1% 1% 1%;
+width: 15%
+border-radius: 4px;
+}
+label{
+	display: block;
+
+
+}
+button{padding: 1% 4%;
+border-radius: 2%;
+
+font-size: 1vw;}
+a:link, a:visited {
+  background-color: rgb(120, 120, 120);
+  color: white;
+margin: 2% 2%;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+
+}

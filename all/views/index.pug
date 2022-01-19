@@ -1,0 +1,30 @@
+
+html(lang='en')
+ head
+   title = title
+   style
+    include ../static/style.css  
+    
+ body
+   
+
+   div.title
+    h1 Register
+
+   div.form
+    form(method="POST" )
+     div.mail
+      label(for='email') Email
+      input#mail(type="email" placeholder="your mail" name="mail") 
+      
+     
+      br  
+     div.pass
+      label(for='password') Password
+      input#pass(type="text" placeholder="your password" name="password") 
+      
+      
+     button(type='submit') Register 
+
+    a(href='/login') Login
+
